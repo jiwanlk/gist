@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Kathmandu"
+      },
+      "geometry": {
+        "coordinates": [85.23953062883584, 27.705137912523924],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Janakpur"
+      },
+      "geometry": {
+        "coordinates": [83.45319274521717, 27.589386931752685],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Chitwan"
+      },
+      "geometry": {
+        "coordinates": [84.0084897522218, 28.481626099752674],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Gaindakot"
+      },
+      "geometry": {
+        "coordinates": [85.94088495760616, 26.76854202028545],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Birtamod"
+      },
+      "geometry": {
+        "coordinates": [84.91186083528487, 27.08530675260174],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Birgunj"
+      },
+      "geometry": {
+        "coordinates": [87.28841297902841, 26.509397233526187],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Pokhara"
+      },
+      "geometry": {
+        "coordinates": [87.68558062312133, 26.72991813199566],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Butwal"
+      },
+      "geometry": {
+        "coordinates": [87.58525228247242, 27.242165978253198],
+        "type": "Point"
+      }
+    }
+  ]
+}

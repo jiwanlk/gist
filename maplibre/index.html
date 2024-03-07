@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIST</title>
+    <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+    <link
+      href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      button {
+        position: absolute;
+        top: 0;
+        margin: 20px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body,
+      #map {
+        height: 100%;
+      }
+      #pause::after {
+        content: "Pause";
+      }
+      #pause.pause::after {
+        content: "Play";
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <button id="pause"></button>
+    <script src="script.js"></script>
+  </body>
+</html>
