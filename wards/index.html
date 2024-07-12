@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map with Layer Selection</title>
+    <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+    <link
+      href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      #map {
+        height: 80vh;
+        width: 100%;
+      }
+      .layer-checkbox {
+        max-height: 20vh;
+        overflow: scroll;
+      }
+      .layer-checkbox > div {
+        display: block;
+      }
+      label {
+        display: inline-block;
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="layer-checkbox" id="layer-box"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

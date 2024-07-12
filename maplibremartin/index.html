@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIST</title>
+    <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+    <link
+      href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      button {
+        position: absolute;
+        top: 0;
+        margin: 20px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body,
+      #map {
+        height: 100%;
+      }
+
+      #operatorTypeSelect {
+        position: fixed;
+        z-index: 1;
+        top: 2rem;
+        left: 2rem;
+        font-size: large;
+        padding: 0.5rem;
+      }
+
+      .popup_content {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        background-color: antiquewhite;
+        padding: 0.25rem 0.5rem;
+        gap: 0.5rem;
+        align-items: start;
+      }
+    </style>
+  </head>
+  <body>
+    <select name="operator_type" id="operatorTypeSelect">
+      <option value="All">Filter Operator Type</option>
+      <option value="government">Government</option>
+      <option value="private">Private</option>
+    </select>
+    <div id="map"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
